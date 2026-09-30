@@ -36,7 +36,7 @@ export function formatConfigStore2FormSchema({
     docUrl = 'https://doc.fastgpt.io',
     loginGuideDocUrl = '',
     openAPIDocUrl = '',
-    systemTitle = 'FastGPT',
+    systemTitle = 'GuiLing智能助手',
     customApiDomain = '',
     customSharePageDomain = '',
     limit = {
