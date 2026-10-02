@@ -8,9 +8,8 @@ on:
         required: true
         type: string
   push:
-    paths:
-      - 'projects/app/**'
-      - 'packages/**'
+    branches-ignore:
+      - '**'
     tags:
       - 'v*'
 
