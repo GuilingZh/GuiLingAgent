@@ -43,7 +43,7 @@ export const ModelSummarySchema = z.discriminatedUnion('status', [
     avatar: z
       .string()
       .optional()
-      .meta({ description: '模型 logo 地址', example: '/icon/logo.svg' }),
+      .meta({ description: '模型 logo 地址', example: '/icon/logo.png' }),
     status: z.enum(['active', 'disabled', 'forbidden']).meta({
       description: '当前身份的可用状态；无权限优先于停用',
       example: 'active'

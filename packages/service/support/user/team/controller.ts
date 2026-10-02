@@ -212,7 +212,7 @@ export async function createUserLoginTeam({
 export async function createDefaultTeam({
   userId,
   teamName = 'My Team',
-  avatar = '/icon/logo.svg',
+  avatar = '/icon/logo.png',
   session
 }: {
   userId: string;

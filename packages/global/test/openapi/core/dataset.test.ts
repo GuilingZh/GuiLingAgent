@@ -38,8 +38,8 @@ const expectedPaths = {
 
 describe('Dataset OpenAPI contracts', () => {
   it.each([undefined, null])('defaults a missing or null dataset avatar (%s)', (avatar) => {
-    expect(DatasetItemSchema.shape.avatar.parse(avatar)).toBe('/icon/logo.svg');
-    expect(DatasetListItemSchema.shape.avatar.parse(avatar)).toBe('/icon/logo.svg');
+    expect(DatasetItemSchema.shape.avatar.parse(avatar)).toBe('/icon/logo.png');
+    expect(DatasetListItemSchema.shape.avatar.parse(avatar)).toBe('/icon/logo.png');
   });
 
   it('omits creation time from detail while retaining the list field', () => {

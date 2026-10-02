@@ -67,7 +67,7 @@ describe('POST /api/core/ai/skill/list', () => {
       body: { source: 'mine', parentId: null, withAppCount: false }
     });
 
-    expect(result.data.list.every((item) => item.avatar === '/icon/logo.svg')).toBe(true);
+    expect(result.data.list.every((item) => item.avatar === '/icon/logo.png')).toBe(true);
     expect(
       await MongoAgentSkills.countDocuments({ teamId: owner.teamId, avatar: { $exists: true } })
     ).toBe(0);

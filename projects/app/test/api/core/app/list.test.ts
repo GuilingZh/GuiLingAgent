@@ -636,7 +636,7 @@ describe('POST /api/core/app/list', () => {
 
     expect(res.code).toBe(200);
     expect(res.data.list).toContainEqual(
-      expect.objectContaining({ name: 'Legacy App', avatar: '/icon/logo.svg', intro: '' })
+      expect.objectContaining({ name: 'Legacy App', avatar: '/icon/logo.png', intro: '' })
     );
   });
 

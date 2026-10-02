@@ -1645,7 +1645,7 @@ describe('rewriteAppWorkflowToDetail - agent skills', () => {
       tmbId: user.tmbId,
       type: DatasetTypeEnum.dataset,
       name: 'Deleted Dataset',
-      avatar: '/icon/logo.svg',
+      avatar: '/icon/logo.png',
       vectorModel: 'text-embedding-3-small',
       agentModel: 'gpt-4o-mini',
       deleteTime: new Date()
@@ -1657,7 +1657,7 @@ describe('rewriteAppWorkflowToDetail - agent skills', () => {
         {
           datasetId: deletedDatasetId,
           name: 'Deleted Dataset Snapshot',
-          avatar: '/icon/logo.svg',
+          avatar: '/icon/logo.png',
           vectorModel: {
             model: 'text-embedding-3-small'
           }
