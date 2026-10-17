@@ -529,7 +529,7 @@
   "tts_close": "끄기",
   "type.All": "전체",
   "type.Chat_Agent": "대화 에이전트",
-  "type.Chat_Agent_v2": "채팅 에이전트 V2",
+  "type.Chat_Agent_v2": "워크스페이스 에이전트",
   "type.Create http toolset tip": "OpenAPI Schema로 도구를 일괄 생성 (GPTs 호환)",
   "type.Create mcp tools tip": "MCP 주소를 입력하여 호출 가능한 MCP 도구를 자동으로 분석하고 일괄 생성",
   "type.Http batch": "일괄 생성",

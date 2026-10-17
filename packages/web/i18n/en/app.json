@@ -529,7 +529,7 @@
   "tts_close": "Close",
   "type.All": "All",
   "type.Chat_Agent": "Chat Agent",
-  "type.Chat_Agent_v2": "Chat Agent V2",
+  "type.Chat_Agent_v2": "Workspace Agent",
   "type.Create http toolset tip": "Batch create tools via OpenAPI Schema (GPTs compatible)",
   "type.Create mcp tools tip": "Enter an MCP URL to automatically parse and batch-create MCP Tools that can be called",
   "type.Http batch": "Bulk creation",

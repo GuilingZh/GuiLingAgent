@@ -51,7 +51,7 @@ export const defaultTemplate: AppTemplateSchemaType = {
 };
 
 export const appTypeMap = {
-  [AppTypeEnum.chatAgent]: '对话 Agent V2',
+  [AppTypeEnum.chatAgent]: '工作台Agent',
   [AppTypeEnum.simple]: '对话 Agent',
   [AppTypeEnum.workflow]: '工作流 Agent',
   [AppTypeEnum.workflowTool]: '工作流工具',
